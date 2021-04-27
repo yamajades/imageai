@@ -28,7 +28,7 @@ function preload() {
 function setup() {
   createCanvas(320, 320);
   // Create the video
-   var constraints = {
+  var constraints = {
 
     audio: false,
 
@@ -52,7 +52,7 @@ function setup() {
   
   
   
-  video = createCapture(constraints);
+  video = createCapture( constraints);
   video.size(320, 320);
   video.hide();
 
